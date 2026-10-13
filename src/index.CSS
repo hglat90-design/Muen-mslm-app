@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+  background-color: #020617;
+  color: #f1f5f9;
+}
+
+.font-amiri { font-family: 'Amiri', serif; }
+.font-scheherazade { font-family: 'Scheherazade New', serif; }
