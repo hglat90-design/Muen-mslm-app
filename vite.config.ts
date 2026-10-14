@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/Muen-msim-app/',   // ← تم تعديله ليطابق اسم المستودع الصحيح
+    base: '/Muen-mslm-app/',   // ← يجب إضافة الشرطة المائلة في البداية والنهاية
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
