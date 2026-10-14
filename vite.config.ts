@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/hglat90/',   // ← مهم: اسم المستودع الفعلي
+    base: '/Muen-msim-app/',   // ← تم تعديله ليطابق اسم المستودع الصحيح
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
